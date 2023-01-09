@@ -1,2 +1,7 @@
-Ruben Garcia Gutierrez
-Este es mi primer archivo que voy a cambiar en GitHub
+# My biografy
+Ruben Garcia 
+## My commits
+Mis comentarios
+
+
+
