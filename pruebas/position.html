@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .cats{
+            position: sticky;
+          
+        }
+        .imagenes{
+            width: 650px;
+            height: 650px;
+            background-color: red;
+            position: relative;
+            top: 150px;
+            left: 150px;
+            
+        }
+        .imagenes :nth-child(odd){
+            text-align: left;
+        }
+        .imagenes :nth-child(even){
+            text-align: right;
+        }
+        .image1{
+            position: absolute;
+            top:0;
+            left:0;
+            bottom:500px;
+            right:500px;
+    
+        }
+        .image2{
+            position: absolute;
+            top: 0px;
+            left:500px;
+            bottom:500px;
+            right:0px;
+        }
+        .image3{
+            position: absolute;
+            top:500px;
+            left:0px;
+            bottom:0px;
+            right:500px;
+
+        }
+        .image4{
+            position: absolute;
+            top:500px;
+            left:500px;
+            bottom:0px;
+            right:0px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cats">
+        <h1>Vivan los gatos</h1>
+        <div class="imagenes">
+            <img src="images/carcassonne.jpg"  class="image1"alt="carcassonne" width="150px" height="150px">
+            <img src="images/exploding.jpg"class="image2" alt="exploding" width="150px" height="150px">
+            <img src="images/polilla.jpg"class="image3" alt="polilla" width="150px" height="150px">
+            <img src="images/seven.jfif" class="image4"alt="seven" width="150px" height="150px">
+        </div>
+    </div>
+</body>
+</html>
