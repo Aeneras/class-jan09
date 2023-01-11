@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    width: 100vw;   
+    background-color: rgb(25, 33, 41); 
+    color:rgb(255,255,255);
+
+}
+form{
+    width: 180px;
+    border: 1px rgb(67, 163, 230) solid;
+    padding: 10px;
+    
+}
+#form-container {
+    margin: auto;
+}
+#submit{
+    background-color: rgb(67, 163, 230);
+    border-radius: 10px;
+    border-color: transparent;
+}
