@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        @media only screen and (min-width:320px) and (max-width:750px){
+            .destripando{
+                display: block;
+
+            }
+            .mago{
+                display: none;
+
+            }
+            .fire{
+                display: none;
+
+            }
+
+        }
+        @media only screen and (min-width:751px) and (max-width:1023 ){
+            .destripando{
+                display: none;
+
+            }
+            .mago{
+                display: block;
+
+            }
+            .fire{
+                display: none;
+
+            }
+
+        }
+        @media (min-width:1024px){
+            .destripando{
+                display: none;
+
+            }
+            .mago{
+                display: none;
+
+            }
+            .fire{
+                display: block;
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 class="destripando">Destripando la historia</h1>
+    <h1 class="mago">Mago de oz</h1>
+    <h1 class="fire">Rhapsody of fire</h1>
+</body>
+</html>

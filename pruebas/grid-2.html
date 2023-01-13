@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-2</title>
+    <style>
+        section{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 10fr;
+            grid-template-rows: 1fr 1fr 5fr;
+        }
+        .header{
+            background-color: pink;
+            grid-column: 1/span 3;          
+        }
+        .nav{
+            background-color: aqua;
+            grid-column: 1/span 3;
+        }
+        .side{
+            background-color: lightyellow;
+            /*grid-column: 1/span 1;*/
+        }
+        .main{
+            background-color:lightgreen ;
+            /*grid-column: 2/span 2;*/
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="header">Header</div>
+        <div class="nav">NavBar</div>
+        <div class="side">SideBar</div>
+        <div class="main">Main</div>
+    </section>
+</body>
+</html>

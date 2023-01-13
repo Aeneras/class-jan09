@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        .imagenes{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: flex-end;
+        }
+        .nombres{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="imagenes">
+        <img src="images/carcassonne.jpg" alt="carcassonne">
+        <img src="images/exploding.jpg" alt="exploding">
+        <img src="images/seven.webp" alt="seven">
+        <img src="images/polilla.jpg" alt="polilla">
+        <div class="nombres">
+        <p>Ashley</p>
+        <p>Gus</p>
+        <p>Saha</p>        
+        </div>
+    </div>
+   
+</body>
+</html>

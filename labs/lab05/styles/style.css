@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+/* Header*/ 
+/*CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Header */
+body{
+    font-family: "Roboto", sans-serif;
+    color: #1a1a1a;
+    background-color: #fafafa;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    padding: 1rem;
+    width: 100%;
+}
+header img{
+    width: 160px;
+    height: 30px;
+}
+.ul-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    font-size: 12px;
+}
+.ul-header>li{
+    margin: 0 1rem 0 0;
+}
+/* Main */
+main{
+        background-image: url(../images/landing.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        padding: 0 6rem;
+    }
+h1{
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    
+}
+h1>p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+/*What */
+.what{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    
+    text-decoration: underline #00B172;
+    margin-bottom: 2rem;
+}
+/*Songs*/
+.songs{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.songs>.li-songs>img{
+    width: 25%;   
+}
+.li-songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    color: #00B172;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+/*Bottom*/
+.green{
+    background-color: #00B172;
+    color:#FFF;  
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    text-decoration-line: underline;
+    text-decoration-color: #FFF;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin:10px;
+    font-size: 32px;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.li-white{
+    width: 30%;
+}
+.spotify-white{
+    width: 15%;
+}
+.kanye{
+    width: 30%;
+}
+.green>img{
+    width: 25%;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
