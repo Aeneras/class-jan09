@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            animation-name: wu-tang;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+
+        }
+        @keyframes wu-tang {
+            25%,75%{
+                width: 200px;
+                height: 200px;
+                background-color: darkmagenta;
+            }
+            50%,100%{
+                width: 20px;
+                height: 20px;
+                background-color: darkkhaki;
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <!--
+   //Animacion llamada wu tang. 0%: width, heigth:100px lado superior izquierdo.
+   25%, 75%: width heigth: 200px y otro color.
+   50%, 100%: width, heigth: 20px y otro background-color.  
+   animacion infinita
+    elemento div background-color, 
+    -->
+    <div></div>
+</body>
+</html>

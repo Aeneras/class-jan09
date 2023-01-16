@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab06</title>
+</head>
+<body>
+    <h1>Iteration 1:Names and input</h1>
+    <p id="hacker1Name"></p>
+    <p id="hacker2Name"></p>
+    <h2>Iteration 2:Conditionals</h2>
+    <p id="conditional"></p>
+    <h2>Iteration 3:Loops</h2>
+    <p id="loop-name"></p>
+    <h3>Reversal name</h3>
+    <p id="reversal">Reversal</p>
+    <h3>Lexicographic order</h3>
+    <p id="lexicographic"></p>
+    
+<script>
+        /// Iteration 1:Names and input 
+        console.log("I'm ready!")
+        let hacker1="Zana";
+        let hacker2=navigator.appName;
+        document.getElementById("hacker1Name").innerHTML="The driver's name is " + hacker1;
+        document.getElementById("hacker2Name").innerHTML="The navigator's name is " + hacker2;
+
+        //Iteration 2:Conditionals 
+        let hacker1Length=hacker1.length;
+        let hacker2Length=hacker2.length;
+        if(hacker1Length>hacker2Length){
+            console.log("Pepe");
+            document.getElementById("conditional").innerHTML="The driver has the longest name, it has " + hacker1Length +" characters. "
+        }else if(hacker1Length<hacker2Length){
+            document.getElementById("conditional").innerHTML = "It seems that the navigator has the longest name, it has " + hacker2Length +" characters."
+        }else{
+            document.getElementById("conditional").innerHTML="Wow, you both have equally long names, XX characters!"
+        }
+        //Iterarion 3:Print the characters of the driver's name, separated by space, and in capital letters 
+        let capitalLeter =hacker2.toLocaleUpperCase().split("").join(" ").replace(/\s+/g, " ");
+        document.getElementById("loop-name").innerHTML=capitalLeter;
+        //Iteration 3.2Print all the characters of the navigator's name, in reverse order
+        let split=hacker2.split("");
+        let reverse= split.reverse("");
+        let join=reverse.join("");
+        document.getElementById("reversal").innerHTML=join;
+        //Iteration 3.3: Order in lexicographil order
+        if(hacker1>hacker2){
+            document.getElementById("lexicographic").innerHTML="The driver's name goes first."
+        }else if(hacker1<hacker2){
+            document.getElementById("lexicographic").innerHTML="Yo, the navigator goes first definitely."
+            }else{
+            document.getElementById("lexicographic").innerHTML="What?! You both have the same name?"
+            }
+            
+
+    </script>
+
+</body>
+</html>
