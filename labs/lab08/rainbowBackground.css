@@ -1,0 +1,9 @@
+#gradient-colorful {
+  background-color: blue;
+  transition: background-color 2s ease-in-out;
+  height: 500px;
+}
+
+#oposite-gradient {
+  color: green;
+}
