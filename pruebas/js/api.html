@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" id="pokemonId" min="0" max="151" />
+    <button onclick="searchById()">Pokenea!</button>
+    <h2>Fecth 2
+Permite al usuario introducir un número entre el 0 y el 151, que son los únicos pokemon que merecen la pena. Devuélvele la info del pokemon con la id correspondiente.</h2>
+  </body>
+  <script>
+    // function searchById(){
+    // fetch("https://pokeapi.co/api/v2/pokemon/articuno")
+    // .then((response) => response.json())
+    // .then((data) => console.log(data));
+    // }
+    function searchById(){
+     fetch("https://pokeapi.co/api/v2/pokemon/")
+     .then((response) => response.json());
+     catch(res=>jQuery(#pokemonId))
+     .then((data) => console.log(data));
+     }
+
+
+  </script>
+</html>
